@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+a{
+    color: #0b7dda;
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+    justify-content: space-between;
+  }
+.column_list {
+    float: left;
+    width: 50%;
+   
+  }
+.container .header {
+    width: 100%;
+    height: 50px;
+    background: #2c2c2c;
+    color: rgb(180, 180, 180);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.container .header ul {
+    padding: 0px;
+}
+.container .header li {
+    float: left;
+    width: auto;
+    margin-left: 15px;
+    list-style: outside none none;
+}
+
+.wrapper {
+    padding: 1% 5% 0 5%;
+}
+
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+.leftcolumn h7{
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+}
+.leftcolumn p{
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+}
+.leftcolumn p span{
+   border-bottom: 2px solid #0b7dda;
+}
+.leftcolumn .fakeimg{
+    padding: 22px 0 22px 0;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.leftcolumn img{
+    width: 100%;
+    height: 300px;
+    padding: 10px 0 10px 0;
+}
+.leftcolumn .title{
+    border-top: 1px solid #dddddd;
+    padding: 30px 0 20px 0;
+    font-size: 20px;
+    line-height: 1.59rem;
+    font-weight: 400;
+}
+.leftcolumn .para{
+    font-size: 15px;
+    color: rgb(104, 103, 103);
+    line-height: 1.5rem;
+}
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+.rightcolumn .para{
+    font-size: 14px;
+    color: rgb(104, 103, 103);
+    line-height: 1.5rem;
+}
+.Search {
+    margin: auto;
+    width: 100%;
+}
+.Search input,
+button {
+    width: 85%;
+    border: 2px solid #e7e7e7;
+    border-right: 0px;
+    font-size: 13px;
+    padding: 5px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    color: rgb(255, 255, 255);
+}
+.Search input:hover {
+    opacity: 0.8;
+}
+.Search button {
+    width: 15%;
+    background-color: #fff;
+    color: #000;
+    
+    transition: all 0.3s;
+    float: right;
+    border-left: 0px;
+}
+.Search button:hover {
+    opacity: 0.8;
+}
+.card {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+.footer {
+    padding: 4% 0 4% 0;
+    position: relative;
+    float: left;
+    bottom: 0;
+    margin-top: 5%;
+    width: 100%;
+    color: #6b6b6b;
+    border-top: 1px solid #dddddd;
+}
