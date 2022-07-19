@@ -85,7 +85,7 @@
     padding: 10px 5px;
     min-width: 225px;
     min-height: 315px;
-    max-height: 370px;
+    max-height: 470px;
     width: 100%;
 }
 
@@ -145,7 +145,7 @@
 
 @media screen and (max-width: 768px) {
     .cards_wrap .card_item {
-        width: 50%;
+        width: 45%;
     }
     .container .header {
         font-size: 16px;
