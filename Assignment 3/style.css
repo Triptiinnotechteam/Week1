@@ -1,0 +1,27 @@
+.wrapper {
+    background-color: rgb(158, 158, 158);
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+.btn {
+    background-color: rgb(0, 155, 226);
+    border-radius: 20px;
+    color: rgb(233, 233, 233);
+    border: none;
+    padding: 10px;
+    margin: 100px 0px 20px 30px;
+}
+.btn1 {
+    margin-left: 100px;
+}
+
+@media (max-width: 500px) {
+    .btn1 {
+        margin: 0 10px 0 2px;
+    }
+    .btn {
+        margin: 100px 0px 20px 10px;
+    }
+}
