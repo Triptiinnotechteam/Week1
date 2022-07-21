@@ -47,16 +47,16 @@
         left: 6%;
     }
     .box {
-        width: 19.5vh !important;
-        height: 70px;
+        width: 182px !important;
+        height: 90px;
     }
     .wrapper2{
-        top: 210px;
-        left: 95px;
+        top: 448px;
+        left: 140px;
     }
     .wrapper2 .box1 {
-        width: 12vh;
-        height: 80px;
+        width: 105px;
+        height: 100px;
      
     }
 }
@@ -67,17 +67,17 @@
         left: 7%;
     }
     .box {
-        width: 23.7vh !important;
-        height: 85px;
+        width: 182px !important;
+        height: 95px;
     }
     .wrapper2{
-        
+        top: 455px;
+        left: 145px;
     }
     .wrapper2 .box1 {
-        width: 12vh;
-        height: 80px;
-        top: 225px;
-        left: 130px;
+        width: 105px;
+        height: 100px;
+        
     }
 }
 
@@ -86,8 +86,8 @@
         top: 30%;
         left: 7%;
     }
-    .wrapper2 .box1 {
-        top: 286px;
+    .wrapper2 {
+        top: 516px;
         left: 278px;
     }
 }
@@ -97,20 +97,20 @@
         top: 30%;
         left: 13%;
     }
-    .wrapper2 .box1 {
-        top: 286px;
+    .wrapper2 {
+        top: 509px;
         left: 358px;
     }
 }
 
 @media screen and (min-device-width: 1027px) and (max-device-width: 1444px) {
-    .wrapper2 .box1 {
-        top: 326px;
+    .wrapper2{
+        top: 506px;
         left: 730px;
     }
 }
 @media screen and (min-device-width: 1545px) and (max-device-width: 2561px) {
-    .wrapper2 .box1 {
+    .wrapper2  {
         top: 512px;
         left: 1120px;
     }
