@@ -40,9 +40,9 @@ nav .content .links{
 .content .links li a,
 .content .links li label{
   color: #000;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
-  padding: 9px 17px;
+  padding: 9px 14px;
   width: 100%;
   text-transform: uppercase;
   transition: all 0.3s ease;
@@ -53,6 +53,7 @@ nav .content .links{
 .content .links li a:hover,
 .content .links li label:hover{
   background: rgb(59, 23, 23);
+  color: #fff;
 }
 .wrapper .menu-icon{
   color: #000;
@@ -102,7 +103,7 @@ nav .content .links{
   top: 0;
 }
 /* Responsive code start */
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1444px){
  
   .wrapper nav{
     max-width: 100%;
