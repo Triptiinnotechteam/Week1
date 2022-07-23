@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
     --primary: #8a4c4c;
-    --second: rgb(26, 83, 0);
+    --second: rgb(18, 61, 0);
 }
 * {
     box-sizing: border-box;
@@ -89,7 +89,8 @@ button {
 }
 .Search button {
     width: 12%;
-    background-color: var(--primary);
+    background: rgb(123,75,77);
+    background: linear-gradient(0deg, rgba(123,75,77,1) 51%, rgba(186,147,147,1) 92%);
     transition: all 0.3s;
     float: right;
     padding: 4px;
@@ -102,7 +103,8 @@ button {
 
 /* navbar*/
 .wrapper {
-    background: var(--primary);
+    background: rgb(123,75,77);
+    background: linear-gradient(0deg, rgba(123,75,77,1) 51%, rgba(186,147,147,1) 92%);
     border-radius: 8px;
     border: 1px solid #fff;
     width: 100%;
@@ -185,13 +187,20 @@ nav .content .links {
     border: 1px solid var(--primary);
     width: 100%;
     height: 100%;
+    background-color: rgb(226, 226, 226);
 }
 .fakeimg ul li {
     list-style: none;
-    padding: 5px;
+    padding-right: 0;
+    line-height: 26px;
+}
+.fakeimg a {
+    line-height: 26px;
+    text-align: center;
 }
 .fakeimg .title {
-    background-color: var(--primary);
+    background: rgb(123,75,77);
+background: linear-gradient(0deg, rgba(123,75,77,1) 51%, rgba(186,147,147,1) 92%);
     height: 22px;
     color: #fff;
     padding: 2px;
@@ -269,7 +278,8 @@ nav .content .links {
 }
 .fakeimg_bottom button {
     margin: 5px 0 10px 0;
-    background-color: var(--primary);
+    background: rgb(123,75,77);
+    background: linear-gradient(0deg, rgba(123,75,77,1) 51%, rgba(186,147,147,1) 92%);
     color: #fff;
     border: none;
     width: 80px;
@@ -374,7 +384,7 @@ nav .content .links {
     /* padding: 6px; */
     text-align: center;
     height: 137px;
-    text-align: left;
+    text-align: center;
 }
 .card_footer .line {
     border-left: 1px solid rgb(187, 187, 187);
@@ -386,9 +396,9 @@ nav .content .links {
 }
 .card_footer h7 {
     color: var(--primary);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
-    padding: 40px;
+    /* padding: 40px; */
     text-transform: uppercase;
     text-align: left;
 }
@@ -396,17 +406,17 @@ nav .content .links {
     list-style: none;
     text-align: left;
     font-size: smaller;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 /* Responsive code start */
 @media screen and (max-width: 1250px) {
     .wrapper nav {
         max-width: 100%;
-        padding: 0 20px;
+        /* padding: 0 20px; */
     }
     .container {
-        padding: 0 20px 0 20px;
+        padding: 0 50px 0 50px;
     }
     nav .content .links {
         margin-left: 30px;
@@ -552,6 +562,9 @@ nav .content .links {
     .Search button {
         width: 14%;
     }
+    .card_footer img {
+        margin-top: 35%;
+    }
     .Search input,
     button {
         padding: 0.19rem;
@@ -559,6 +572,9 @@ nav .content .links {
     }
     .card_right {
         min-height: 866px;
+    }
+    .rightcolumn_container .text-block {
+        font-size: 20px;
     }
 }
 
